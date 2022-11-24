@@ -1305,7 +1305,7 @@ dependencies = [
 [[package]]
 name = "delay-detector"
 version = "0.0.0"
-source = "git+https://github.com/near/nearcore?rev=cdebd3fa2cf516f0b672710c404718c331dd1b07#cdebd3fa2cf516f0b672710c404718c331dd1b07"
+source = "git+https://github.com/Post-Quantum-Team/Post-Quantum-Nearcore?branch=1.29.0-Post-Quantum#516c0b54e1c67d62f3689f0bde144c0bd7fae093"
 dependencies = [
  "cpu-time",
  "tracing",
@@ -1417,6 +1417,12 @@ name = "dotenv"
 version = "0.15.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "77c90badedccf4105eca100756a0b1289e191f6fcbdadd3cee1d2f614f97da8f"
+
+[[package]]
+name = "dunce"
+version = "1.0.3"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "0bd4b30a6560bbd9b4620f4de34c3f14f60848e58a9b7216801afcb4c7b31c3c"
 
 [[package]]
 name = "dynasm"
@@ -2425,7 +2431,7 @@ dependencies = [
 [[package]]
 name = "near-account-id"
 version = "0.0.0"
-source = "git+https://github.com/near/nearcore?rev=cdebd3fa2cf516f0b672710c404718c331dd1b07#cdebd3fa2cf516f0b672710c404718c331dd1b07"
+source = "git+https://github.com/Post-Quantum-Team/Post-Quantum-Nearcore?branch=1.29.0-Post-Quantum#516c0b54e1c67d62f3689f0bde144c0bd7fae093"
 dependencies = [
  "borsh 0.9.3",
  "serde",
@@ -2434,7 +2440,7 @@ dependencies = [
 [[package]]
 name = "near-cache"
 version = "0.0.0"
-source = "git+https://github.com/near/nearcore?rev=cdebd3fa2cf516f0b672710c404718c331dd1b07#cdebd3fa2cf516f0b672710c404718c331dd1b07"
+source = "git+https://github.com/Post-Quantum-Team/Post-Quantum-Nearcore?branch=1.29.0-Post-Quantum#516c0b54e1c67d62f3689f0bde144c0bd7fae093"
 dependencies = [
  "lru",
 ]
@@ -2442,7 +2448,7 @@ dependencies = [
 [[package]]
 name = "near-chain"
 version = "0.0.0"
-source = "git+https://github.com/near/nearcore?rev=cdebd3fa2cf516f0b672710c404718c331dd1b07#cdebd3fa2cf516f0b672710c404718c331dd1b07"
+source = "git+https://github.com/Post-Quantum-Team/Post-Quantum-Nearcore?branch=1.29.0-Post-Quantum#516c0b54e1c67d62f3689f0bde144c0bd7fae093"
 dependencies = [
  "actix",
  "ansi_term",
@@ -2475,7 +2481,7 @@ dependencies = [
 [[package]]
 name = "near-chain-configs"
 version = "0.0.0"
-source = "git+https://github.com/near/nearcore?rev=cdebd3fa2cf516f0b672710c404718c331dd1b07#cdebd3fa2cf516f0b672710c404718c331dd1b07"
+source = "git+https://github.com/Post-Quantum-Team/Post-Quantum-Nearcore?branch=1.29.0-Post-Quantum#516c0b54e1c67d62f3689f0bde144c0bd7fae093"
 dependencies = [
  "anyhow",
  "chrono",
@@ -2493,7 +2499,7 @@ dependencies = [
 [[package]]
 name = "near-chain-primitives"
 version = "0.0.0"
-source = "git+https://github.com/near/nearcore?rev=cdebd3fa2cf516f0b672710c404718c331dd1b07#cdebd3fa2cf516f0b672710c404718c331dd1b07"
+source = "git+https://github.com/Post-Quantum-Team/Post-Quantum-Nearcore?branch=1.29.0-Post-Quantum#516c0b54e1c67d62f3689f0bde144c0bd7fae093"
 dependencies = [
  "chrono",
  "near-crypto",
@@ -2505,7 +2511,7 @@ dependencies = [
 [[package]]
 name = "near-chunks"
 version = "0.0.0"
-source = "git+https://github.com/near/nearcore?rev=cdebd3fa2cf516f0b672710c404718c331dd1b07#cdebd3fa2cf516f0b672710c404718c331dd1b07"
+source = "git+https://github.com/Post-Quantum-Team/Post-Quantum-Nearcore?branch=1.29.0-Post-Quantum#516c0b54e1c67d62f3689f0bde144c0bd7fae093"
 dependencies = [
  "actix",
  "borsh 0.9.3",
@@ -2530,7 +2536,7 @@ dependencies = [
 [[package]]
 name = "near-chunks-primitives"
 version = "0.0.0"
-source = "git+https://github.com/near/nearcore?rev=cdebd3fa2cf516f0b672710c404718c331dd1b07#cdebd3fa2cf516f0b672710c404718c331dd1b07"
+source = "git+https://github.com/Post-Quantum-Team/Post-Quantum-Nearcore?branch=1.29.0-Post-Quantum#516c0b54e1c67d62f3689f0bde144c0bd7fae093"
 dependencies = [
  "near-chain-primitives",
  "near-primitives",
@@ -2539,7 +2545,7 @@ dependencies = [
 [[package]]
 name = "near-client"
 version = "0.0.0"
-source = "git+https://github.com/near/nearcore?rev=cdebd3fa2cf516f0b672710c404718c331dd1b07#cdebd3fa2cf516f0b672710c404718c331dd1b07"
+source = "git+https://github.com/Post-Quantum-Team/Post-Quantum-Nearcore?branch=1.29.0-Post-Quantum#516c0b54e1c67d62f3689f0bde144c0bd7fae093"
 dependencies = [
  "actix",
  "actix-rt",
@@ -2581,7 +2587,7 @@ dependencies = [
 [[package]]
 name = "near-client-primitives"
 version = "0.0.0"
-source = "git+https://github.com/near/nearcore?rev=cdebd3fa2cf516f0b672710c404718c331dd1b07#cdebd3fa2cf516f0b672710c404718c331dd1b07"
+source = "git+https://github.com/Post-Quantum-Team/Post-Quantum-Nearcore?branch=1.29.0-Post-Quantum#516c0b54e1c67d62f3689f0bde144c0bd7fae093"
 dependencies = [
  "actix",
  "chrono",
@@ -2600,7 +2606,7 @@ dependencies = [
 [[package]]
 name = "near-crypto"
 version = "0.0.0"
-source = "git+https://github.com/near/nearcore?rev=cdebd3fa2cf516f0b672710c404718c331dd1b07#cdebd3fa2cf516f0b672710c404718c331dd1b07"
+source = "git+https://github.com/Post-Quantum-Team/Post-Quantum-Nearcore?branch=1.29.0-Post-Quantum#516c0b54e1c67d62f3689f0bde144c0bd7fae093"
 dependencies = [
  "arrayref",
  "blake2",
@@ -2611,8 +2617,10 @@ dependencies = [
  "derive_more",
  "ed25519-dalek",
  "near-account-id",
+ "near-falcon512",
  "once_cell",
  "parity-secp256k1",
+ "pqcrypto-traits",
  "primitive-types",
  "rand 0.7.3",
  "rand_core 0.5.1",
@@ -2625,7 +2633,7 @@ dependencies = [
 [[package]]
 name = "near-epoch-manager"
 version = "0.0.0"
-source = "git+https://github.com/near/nearcore?rev=cdebd3fa2cf516f0b672710c404718c331dd1b07#cdebd3fa2cf516f0b672710c404718c331dd1b07"
+source = "git+https://github.com/Post-Quantum-Team/Post-Quantum-Nearcore?branch=1.29.0-Post-Quantum#516c0b54e1c67d62f3689f0bde144c0bd7fae093"
 dependencies = [
  "borsh 0.9.3",
  "near-cache",
@@ -2644,9 +2652,21 @@ dependencies = [
 ]
 
 [[package]]
+name = "near-falcon512"
+version = "0.0.0"
+source = "git+https://github.com/Post-Quantum-Team/Post-Quantum-Near-Falcon512#1727ee6ec00ba0e8b2e2399e418d296e63ba29aa"
+dependencies = [
+ "cc",
+ "glob",
+ "libc",
+ "pqcrypto-internals",
+ "pqcrypto-traits",
+]
+
+[[package]]
 name = "near-indexer"
 version = "0.0.0"
-source = "git+https://github.com/near/nearcore?rev=cdebd3fa2cf516f0b672710c404718c331dd1b07#cdebd3fa2cf516f0b672710c404718c331dd1b07"
+source = "git+https://github.com/Post-Quantum-Team/Post-Quantum-Nearcore?branch=1.29.0-Post-Quantum#516c0b54e1c67d62f3689f0bde144c0bd7fae093"
 dependencies = [
  "actix",
  "anyhow",
@@ -2670,7 +2690,7 @@ dependencies = [
 [[package]]
 name = "near-indexer-primitives"
 version = "0.0.0"
-source = "git+https://github.com/near/nearcore?rev=cdebd3fa2cf516f0b672710c404718c331dd1b07#cdebd3fa2cf516f0b672710c404718c331dd1b07"
+source = "git+https://github.com/Post-Quantum-Team/Post-Quantum-Nearcore?branch=1.29.0-Post-Quantum#516c0b54e1c67d62f3689f0bde144c0bd7fae093"
 dependencies = [
  "near-primitives",
  "serde",
@@ -2680,7 +2700,7 @@ dependencies = [
 [[package]]
 name = "near-jsonrpc"
 version = "0.0.0"
-source = "git+https://github.com/near/nearcore?rev=cdebd3fa2cf516f0b672710c404718c331dd1b07#cdebd3fa2cf516f0b672710c404718c331dd1b07"
+source = "git+https://github.com/Post-Quantum-Team/Post-Quantum-Nearcore?branch=1.29.0-Post-Quantum#516c0b54e1c67d62f3689f0bde144c0bd7fae093"
 dependencies = [
  "actix",
  "actix-cors",
@@ -2709,7 +2729,7 @@ dependencies = [
 [[package]]
 name = "near-jsonrpc-client"
 version = "0.0.0"
-source = "git+https://github.com/near/nearcore?rev=cdebd3fa2cf516f0b672710c404718c331dd1b07#cdebd3fa2cf516f0b672710c404718c331dd1b07"
+source = "git+https://github.com/Post-Quantum-Team/Post-Quantum-Nearcore?branch=1.29.0-Post-Quantum#516c0b54e1c67d62f3689f0bde144c0bd7fae093"
 dependencies = [
  "actix-http",
  "awc",
@@ -2724,7 +2744,7 @@ dependencies = [
 [[package]]
 name = "near-jsonrpc-primitives"
 version = "0.0.0"
-source = "git+https://github.com/near/nearcore?rev=cdebd3fa2cf516f0b672710c404718c331dd1b07#cdebd3fa2cf516f0b672710c404718c331dd1b07"
+source = "git+https://github.com/Post-Quantum-Team/Post-Quantum-Nearcore?branch=1.29.0-Post-Quantum#516c0b54e1c67d62f3689f0bde144c0bd7fae093"
 dependencies = [
  "near-chain-configs",
  "near-client-primitives",
@@ -2740,7 +2760,7 @@ dependencies = [
 [[package]]
 name = "near-logger-utils"
 version = "0.0.0"
-source = "git+https://github.com/near/nearcore?rev=cdebd3fa2cf516f0b672710c404718c331dd1b07#cdebd3fa2cf516f0b672710c404718c331dd1b07"
+source = "git+https://github.com/Post-Quantum-Team/Post-Quantum-Nearcore?branch=1.29.0-Post-Quantum#516c0b54e1c67d62f3689f0bde144c0bd7fae093"
 dependencies = [
  "near-o11y",
  "tracing",
@@ -2749,7 +2769,7 @@ dependencies = [
 [[package]]
 name = "near-mainnet-res"
 version = "0.0.0"
-source = "git+https://github.com/near/nearcore?rev=cdebd3fa2cf516f0b672710c404718c331dd1b07#cdebd3fa2cf516f0b672710c404718c331dd1b07"
+source = "git+https://github.com/Post-Quantum-Team/Post-Quantum-Nearcore?branch=1.29.0-Post-Quantum#516c0b54e1c67d62f3689f0bde144c0bd7fae093"
 dependencies = [
  "near-account-id",
  "near-chain-configs",
@@ -2760,7 +2780,7 @@ dependencies = [
 [[package]]
 name = "near-metrics"
 version = "0.0.0"
-source = "git+https://github.com/near/nearcore?rev=cdebd3fa2cf516f0b672710c404718c331dd1b07#cdebd3fa2cf516f0b672710c404718c331dd1b07"
+source = "git+https://github.com/Post-Quantum-Team/Post-Quantum-Nearcore?branch=1.29.0-Post-Quantum#516c0b54e1c67d62f3689f0bde144c0bd7fae093"
 dependencies = [
  "prometheus",
  "tracing",
@@ -2769,7 +2789,7 @@ dependencies = [
 [[package]]
 name = "near-network"
 version = "0.0.0"
-source = "git+https://github.com/near/nearcore?rev=cdebd3fa2cf516f0b672710c404718c331dd1b07#cdebd3fa2cf516f0b672710c404718c331dd1b07"
+source = "git+https://github.com/Post-Quantum-Team/Post-Quantum-Nearcore?branch=1.29.0-Post-Quantum#516c0b54e1c67d62f3689f0bde144c0bd7fae093"
 dependencies = [
  "actix",
  "anyhow",
@@ -2820,7 +2840,7 @@ dependencies = [
 [[package]]
 name = "near-network-primitives"
 version = "0.0.0"
-source = "git+https://github.com/near/nearcore?rev=cdebd3fa2cf516f0b672710c404718c331dd1b07#cdebd3fa2cf516f0b672710c404718c331dd1b07"
+source = "git+https://github.com/Post-Quantum-Team/Post-Quantum-Nearcore?branch=1.29.0-Post-Quantum#516c0b54e1c67d62f3689f0bde144c0bd7fae093"
 dependencies = [
  "actix",
  "anyhow",
@@ -2841,7 +2861,7 @@ dependencies = [
 [[package]]
 name = "near-o11y"
 version = "0.0.0"
-source = "git+https://github.com/near/nearcore?rev=cdebd3fa2cf516f0b672710c404718c331dd1b07#cdebd3fa2cf516f0b672710c404718c331dd1b07"
+source = "git+https://github.com/Post-Quantum-Team/Post-Quantum-Nearcore?branch=1.29.0-Post-Quantum#516c0b54e1c67d62f3689f0bde144c0bd7fae093"
 dependencies = [
  "atty",
  "backtrace",
@@ -2862,7 +2882,7 @@ dependencies = [
 [[package]]
 name = "near-performance-metrics"
 version = "0.0.0"
-source = "git+https://github.com/near/nearcore?rev=cdebd3fa2cf516f0b672710c404718c331dd1b07#cdebd3fa2cf516f0b672710c404718c331dd1b07"
+source = "git+https://github.com/Post-Quantum-Team/Post-Quantum-Nearcore?branch=1.29.0-Post-Quantum#516c0b54e1c67d62f3689f0bde144c0bd7fae093"
 dependencies = [
  "actix",
  "bitflags",
@@ -2879,7 +2899,7 @@ dependencies = [
 [[package]]
 name = "near-performance-metrics-macros"
 version = "0.0.0"
-source = "git+https://github.com/near/nearcore?rev=cdebd3fa2cf516f0b672710c404718c331dd1b07#cdebd3fa2cf516f0b672710c404718c331dd1b07"
+source = "git+https://github.com/Post-Quantum-Team/Post-Quantum-Nearcore?branch=1.29.0-Post-Quantum#516c0b54e1c67d62f3689f0bde144c0bd7fae093"
 dependencies = [
  "quote",
  "syn",
@@ -2888,7 +2908,7 @@ dependencies = [
 [[package]]
 name = "near-pool"
 version = "0.0.0"
-source = "git+https://github.com/near/nearcore?rev=cdebd3fa2cf516f0b672710c404718c331dd1b07#cdebd3fa2cf516f0b672710c404718c331dd1b07"
+source = "git+https://github.com/Post-Quantum-Team/Post-Quantum-Nearcore?branch=1.29.0-Post-Quantum#516c0b54e1c67d62f3689f0bde144c0bd7fae093"
 dependencies = [
  "borsh 0.9.3",
  "near-crypto",
@@ -2901,7 +2921,7 @@ dependencies = [
 [[package]]
 name = "near-primitives"
 version = "0.0.0"
-source = "git+https://github.com/near/nearcore?rev=cdebd3fa2cf516f0b672710c404718c331dd1b07#cdebd3fa2cf516f0b672710c404718c331dd1b07"
+source = "git+https://github.com/Post-Quantum-Team/Post-Quantum-Nearcore?branch=1.29.0-Post-Quantum#516c0b54e1c67d62f3689f0bde144c0bd7fae093"
 dependencies = [
  "borsh 0.9.3",
  "byteorder",
@@ -2930,7 +2950,7 @@ dependencies = [
 [[package]]
 name = "near-primitives-core"
 version = "0.0.0"
-source = "git+https://github.com/near/nearcore?rev=cdebd3fa2cf516f0b672710c404718c331dd1b07#cdebd3fa2cf516f0b672710c404718c331dd1b07"
+source = "git+https://github.com/Post-Quantum-Team/Post-Quantum-Nearcore?branch=1.29.0-Post-Quantum#516c0b54e1c67d62f3689f0bde144c0bd7fae093"
 dependencies = [
  "base64 0.13.0",
  "borsh 0.9.3",
@@ -2965,7 +2985,7 @@ dependencies = [
 [[package]]
 name = "near-rate-limiter"
 version = "0.0.0"
-source = "git+https://github.com/near/nearcore?rev=cdebd3fa2cf516f0b672710c404718c331dd1b07#cdebd3fa2cf516f0b672710c404718c331dd1b07"
+source = "git+https://github.com/Post-Quantum-Team/Post-Quantum-Nearcore?branch=1.29.0-Post-Quantum#516c0b54e1c67d62f3689f0bde144c0bd7fae093"
 dependencies = [
  "actix",
  "bytes",
@@ -2979,7 +2999,7 @@ dependencies = [
 [[package]]
 name = "near-rosetta-rpc"
 version = "0.0.0"
-source = "git+https://github.com/near/nearcore?rev=cdebd3fa2cf516f0b672710c404718c331dd1b07#cdebd3fa2cf516f0b672710c404718c331dd1b07"
+source = "git+https://github.com/Post-Quantum-Team/Post-Quantum-Nearcore?branch=1.29.0-Post-Quantum#516c0b54e1c67d62f3689f0bde144c0bd7fae093"
 dependencies = [
  "actix",
  "actix-cors",
@@ -3007,7 +3027,7 @@ dependencies = [
 [[package]]
 name = "near-rpc-error-core"
 version = "0.0.0"
-source = "git+https://github.com/near/nearcore?rev=cdebd3fa2cf516f0b672710c404718c331dd1b07#cdebd3fa2cf516f0b672710c404718c331dd1b07"
+source = "git+https://github.com/Post-Quantum-Team/Post-Quantum-Nearcore?branch=1.29.0-Post-Quantum#516c0b54e1c67d62f3689f0bde144c0bd7fae093"
 dependencies = [
  "quote",
  "serde",
@@ -3030,7 +3050,7 @@ dependencies = [
 [[package]]
 name = "near-rpc-error-macro"
 version = "0.0.0"
-source = "git+https://github.com/near/nearcore?rev=cdebd3fa2cf516f0b672710c404718c331dd1b07#cdebd3fa2cf516f0b672710c404718c331dd1b07"
+source = "git+https://github.com/Post-Quantum-Team/Post-Quantum-Nearcore?branch=1.29.0-Post-Quantum#516c0b54e1c67d62f3689f0bde144c0bd7fae093"
 dependencies = [
  "near-rpc-error-core 0.0.0",
  "serde",
@@ -3092,12 +3112,12 @@ dependencies = [
 [[package]]
 name = "near-stable-hasher"
 version = "0.0.0"
-source = "git+https://github.com/near/nearcore?rev=cdebd3fa2cf516f0b672710c404718c331dd1b07#cdebd3fa2cf516f0b672710c404718c331dd1b07"
+source = "git+https://github.com/Post-Quantum-Team/Post-Quantum-Nearcore?branch=1.29.0-Post-Quantum#516c0b54e1c67d62f3689f0bde144c0bd7fae093"
 
 [[package]]
 name = "near-store"
 version = "0.0.0"
-source = "git+https://github.com/near/nearcore?rev=cdebd3fa2cf516f0b672710c404718c331dd1b07#cdebd3fa2cf516f0b672710c404718c331dd1b07"
+source = "git+https://github.com/Post-Quantum-Team/Post-Quantum-Nearcore?branch=1.29.0-Post-Quantum#516c0b54e1c67d62f3689f0bde144c0bd7fae093"
 dependencies = [
  "borsh 0.9.3",
  "byteorder",
@@ -3133,7 +3153,7 @@ source = "git+https://github.com/near/near-sdk-rs?rev=03487c184d37b0382dd9bd41c5
 [[package]]
 name = "near-telemetry"
 version = "0.0.0"
-source = "git+https://github.com/near/nearcore?rev=cdebd3fa2cf516f0b672710c404718c331dd1b07#cdebd3fa2cf516f0b672710c404718c331dd1b07"
+source = "git+https://github.com/Post-Quantum-Team/Post-Quantum-Nearcore?branch=1.29.0-Post-Quantum#516c0b54e1c67d62f3689f0bde144c0bd7fae093"
 dependencies = [
  "actix",
  "awc",
@@ -3152,7 +3172,7 @@ dependencies = [
 [[package]]
 name = "near-vm-errors"
 version = "0.0.0"
-source = "git+https://github.com/near/nearcore?rev=cdebd3fa2cf516f0b672710c404718c331dd1b07#cdebd3fa2cf516f0b672710c404718c331dd1b07"
+source = "git+https://github.com/Post-Quantum-Team/Post-Quantum-Nearcore?branch=1.29.0-Post-Quantum#516c0b54e1c67d62f3689f0bde144c0bd7fae093"
 dependencies = [
  "borsh 0.9.3",
  "near-account-id",
@@ -3175,7 +3195,7 @@ dependencies = [
 [[package]]
 name = "near-vm-logic"
 version = "0.0.0"
-source = "git+https://github.com/near/nearcore?rev=cdebd3fa2cf516f0b672710c404718c331dd1b07#cdebd3fa2cf516f0b672710c404718c331dd1b07"
+source = "git+https://github.com/Post-Quantum-Team/Post-Quantum-Nearcore?branch=1.29.0-Post-Quantum#516c0b54e1c67d62f3689f0bde144c0bd7fae093"
 dependencies = [
  "borsh 0.9.3",
  "bs58",
@@ -3214,7 +3234,7 @@ dependencies = [
 [[package]]
 name = "near-vm-runner"
 version = "0.0.0"
-source = "git+https://github.com/near/nearcore?rev=cdebd3fa2cf516f0b672710c404718c331dd1b07#cdebd3fa2cf516f0b672710c404718c331dd1b07"
+source = "git+https://github.com/Post-Quantum-Team/Post-Quantum-Nearcore?branch=1.29.0-Post-Quantum#516c0b54e1c67d62f3689f0bde144c0bd7fae093"
 dependencies = [
  "anyhow",
  "borsh 0.9.3",
@@ -3246,7 +3266,7 @@ dependencies = [
 [[package]]
 name = "nearcore"
 version = "0.0.0"
-source = "git+https://github.com/near/nearcore?rev=cdebd3fa2cf516f0b672710c404718c331dd1b07#cdebd3fa2cf516f0b672710c404718c331dd1b07"
+source = "git+https://github.com/Post-Quantum-Team/Post-Quantum-Nearcore?branch=1.29.0-Post-Quantum#516c0b54e1c67d62f3689f0bde144c0bd7fae093"
 dependencies = [
  "actix",
  "actix-rt",
@@ -3316,7 +3336,7 @@ dependencies = [
 [[package]]
 name = "node-runtime"
 version = "0.0.0"
-source = "git+https://github.com/near/nearcore?rev=cdebd3fa2cf516f0b672710c404718c331dd1b07#cdebd3fa2cf516f0b672710c404718c331dd1b07"
+source = "git+https://github.com/Post-Quantum-Team/Post-Quantum-Nearcore?branch=1.29.0-Post-Quantum#516c0b54e1c67d62f3689f0bde144c0bd7fae093"
 dependencies = [
  "borsh 0.9.3",
  "byteorder",
@@ -3806,6 +3826,24 @@ checksum = "3b845d6d8ec554f972a2c5298aad68953fd64e7441e846075450b44656a016d1"
 dependencies = [
  "vcpkg",
 ]
+
+[[package]]
+name = "pqcrypto-internals"
+version = "0.2.4"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "0127cbc0239f585139a56effd7867921eae3425a000a72dde2b0a156062346b2"
+dependencies = [
+ "cc",
+ "dunce",
+ "getrandom 0.2.6",
+ "libc",
+]
+
+[[package]]
+name = "pqcrypto-traits"
+version = "0.3.4"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "97e91cb6af081c6daad5fa705f8adb0634c027662052cb3174bdf2957bf07e25"
 
 [[package]]
 name = "primitive-types"
